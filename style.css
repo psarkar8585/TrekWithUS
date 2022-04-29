@@ -1,0 +1,66 @@
+.headline{
+    color: rgb(105, 77, 64);
+    margin: 40px;
+
+    
+}
+.navbar{
+    background-color: rgb(194, 162, 162);
+    padding: auto;
+    
+}
+video{
+    margin-left: 125px; 
+}
+.description{
+    margin-left:  125px;
+}
+.coverimage{
+    padding: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(194, 162, 162);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(254, 221, 221);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(130, 112, 112);
+  }
+  .coloumn{
+    float:left;
+    margin: 30px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    padding-left: 10px;
+  }
+ .booking{
+   background-color:white;
+   display: block;
+   
+ }
+button{
+  background-color: rgb(194, 162, 162);
+  color: white;
+}
+.image{
+  padding: 100px;
+  
+
+}

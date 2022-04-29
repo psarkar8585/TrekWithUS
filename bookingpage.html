@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookingpage</title>
+    <link rel="stylesheet" href="bookingpage.css">
+    <style>
+        body{
+            background-color: white;
+        }
+         
+         footer {
+           text-align: center;
+           padding: 30x;
+           background-color: rgb(194, 162, 162);
+           color: white;
+         }
+     </style>
+
+</head>
+<body>
+    <div class="navbar">
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            
+            
+          </ul>
+       
+    </div>
+
+    <h1 class="headline">TrekwithUs</h1>
+    
+<div class="formbody">
+    <form action="">
+        <h1>Payment Form</h1>
+        
+        <h5>Required Fileds are followed by *</h5>
+        <hr><hr>
+        <h2>Basic Infromation</h2>
+        <p>First Name:* <input type="text" name="First Name" required></p>
+        <p>Middle Name: <input type="text" name="Middle Name"></p>
+        <p>Last Name:* <input type="text" name="Last Name"required></p>
+
+        <p>
+            <th>Gender:*  </th>
+            Male<input type ="radio" name ="Gender" id="Male">
+            Female<input type ="radio" name ="Gender" id="Female">
+            Others<input type ="radio" name ="Gender" id="Others">
+        </p>
+    <fieldset>
+        <Legend>Present Address *</Legend>
+        <p> Street Name : <textarea name="address" id="address" cols="50" rows="2"></textarea>></p>  
+        
+        <p> House NO : <textarea name="address" id="address" cols="50" rows="2"></textarea>></p> 
+        
+        <p> Pincode : <input type="number" name="pincode" id="address" cols="50" rows="2" required></textarea>></p> 
+        <p> District : <textarea name="address" id="address" cols="50" rows="2"></textarea>></p> 
+        <p> city : <textarea name="address" id="address" cols="50" rows="2"></textarea>></p> 
+    </fieldset>    
+    <fieldset> 
+    <legend>Contact Details *</legend>  
+    <p>Email : <input type="email" name="email" id="email"cols="50" rows="2"></p>
+    <p>Phone Number : <input type="number" name="number" id="email"cols="50" rows="2"></p>
+    </fieldset> 
+
+    <hr>
+    <h2>Payment Infromation *</h2>
+
+     
+    </p>
+    <p> Payment Gateway:
+        <Select name="gateway" id="gateway_type" required>
+            <option value="">--select a gateway Type--</option>
+            <option value="paypal">paypal</option>
+            <option value="paytm">payment</option>
+            <option value="Debit Card">Debit Card</option>
+            <option value="Credit Card">Credit Card</option>
+        </Select>
+    </p>
+    <fieldset>
+    <p> Card Number <input type="number" name="card_number" id="card_number" required></p>
+
+    <p>Card Holder Name : <input type="text" name="holder_name" id="hoder_name" required></p>
+
+    <p>Expiration Date : <input type="date" name="exp_date" id="exp_date" required></p>
+
+    <p>CVV  <input type="password" name="cvv_name" id="cvv_name" required></p>
+    </fieldset>
+    <a><button>Book Now</button></a>
+    <a ><button>Reset</button></a> 
+    </form>
+
+</div>
+</body>
+
+<!--footerpart of the page-->
+<footer>
+    
+    <a>presented by TrekWithUs</a>
+    <p>payment gateway</p>
+    <img src="paypal.png" height="50px" width="100px">
+    <img src="paytm.jpg" height="50px" width="100px">
+</footer>
+</html>
